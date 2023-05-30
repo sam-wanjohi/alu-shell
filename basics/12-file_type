@@ -1,3 +1,2 @@
 #!/bin/bash
-file_path="/tmp/iamafile"; if [ -e "$file_path" ]; then if [ -f "$file_path" ]; then echo "The file $file_path is a regular file."; else echo "The file $file_path is not a regular file."; fi; else echo "The file $file_path does not exist."; fi
-
+file /tmp/iamafile
