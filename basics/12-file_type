@@ -1,0 +1,2 @@
+#!/bin/bash
+file_path="/tmp/iamafile"; [ -e "$file_path" ] && [ -f "$file_path" ] && echo "The file $file_path is a regular file." || echo "The file $file_path is not a regular file."
