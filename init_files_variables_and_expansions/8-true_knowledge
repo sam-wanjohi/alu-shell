@@ -1,5 +1,2 @@
 #!/bin/bash
 echo $((TRUEKNOWLEDGE+128))
-cat> 9-divide_and_rule
-#!/bin/bash
-echo $(($POWER/$DIVIDE))

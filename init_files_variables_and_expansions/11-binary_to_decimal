@@ -1,8 +1,2 @@
 #!/bin/bash
 echo $((2#$BINARY))
-cat> 12-combinations
-#!/bin/bash
-echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
-cat> 13-print_float
-#!/bin/bash
-printf '%.2f\n' $NUM
